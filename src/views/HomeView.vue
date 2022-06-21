@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <b-container>
     <b>compteur :</b> {{ compteur }}
 	
 	<button @click="ajoute" >Ajouter</button>
@@ -63,7 +63,7 @@ v-model="slide"
 	
 	
     <HelloWorld msg="Salut c'est ma super app, Yahhooo !"/>
-  </div>
+  </b-container>
 </template>
 
 <script lang="ts">
